@@ -6,5 +6,4 @@ const charCounter = document.getElementById('char-counter')
 submitBtn.addEventListener('click', function(){
   let result = textArea.value.length
   charCounter.innerHTML = 'Character Count:' + ' '+result
-  voweCounterFunction(textArea)
 })
